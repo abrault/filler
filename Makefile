@@ -6,13 +6,16 @@
 #    By: abrault <abrault@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2014/01/24 16:28:19 by abrault           #+#    #+#              #
-#    Updated: 2014/01/24 17:21:19 by abrault          ###   ########.fr        #
+#    Updated: 2014/01/26 11:09:44 by abrault          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = filler
 
-SRC = src/main.c\
+SRC = src/main.c \
+	  src/map.c \
+	  src/piece.c \
+	  src/player.c
 
 LIB = libft/libft.a
 

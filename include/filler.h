@@ -6,7 +6,7 @@
 /*   By: abrault <abrault@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/01/24 16:32:09 by abrault           #+#    #+#             */
-/*   Updated: 2014/01/25 17:10:33 by abrault          ###   ########.fr       */
+/*   Updated: 2014/01/26 11:21:00 by abrault          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,5 +30,11 @@ struct					s_map
 	char				letter;
 	char				**map;
 };
+
+void					get_dim_map(t_map *map);
+void					get_map(t_map *map);
+void					get_dim_piece(t_piece *piece);
+void					get_piece(t_piece *piece);
+void					get_player(t_map *map);
 
 #endif
